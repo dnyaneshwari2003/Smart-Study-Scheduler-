@@ -4,7 +4,6 @@ Smart Study Scheduler Built Using Python
 
 A personalized, intelligent study planner powered by Machine Learning and Gemini 2.5 AI. This app helps students optimize their study time based on performance, subject priority, and learning goals.
 
----
 
 ## 🚀 Features
 
@@ -24,7 +23,7 @@ A personalized, intelligent study planner powered by Machine Learning and Gemini
 - Tracks grade and priority for smarter distribution
 - Dynamic feedback loop to adjust schedule
 
----
+
 
 ## 🧩 Tech Stack
 
@@ -37,7 +36,5 @@ A personalized, intelligent study planner powered by Machine Learning and Gemini
 | Database    | SQLite                                 |
 | Visuals     | Pandas, Matplotlib                     |
 
----
 
-## 🗂️ Project Structure
 
