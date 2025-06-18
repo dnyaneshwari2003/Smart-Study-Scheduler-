@@ -50,9 +50,9 @@ if st.button("Generate Schedule"):
                 st.write(f"Cluster {cluster_id + 1}: {', '.join(subs)}")
 
             # Weekly report
-            st.subheader("📈 Weekly Study Report")
-            report = generate_report(subjects, grades, [round(h, 2) for h in hours])
-            st.dataframe(report, use_container_width=True)
+            # st.subheader("📈 Weekly Study Report")
+            # report = generate_report(subjects, grades, [round(h, 2) for h in hours])
+            # st.dataframe(report, use_container_width=True)
 
             # Export
             st.download_button("📤 Download Schedule as CSV", schedule_df.to_csv(index=False), file_name="study_schedule.csv")
